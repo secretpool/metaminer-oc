@@ -1,0 +1,29 @@
+{
+  "name": "metaminer-oc",
+  "version": "1.0.0",
+  "description": "overclock gpus based on custom profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "sake test"
+  },
+  "keywords": [
+    "overclock",
+    "gpu",
+    "mining"
+  ],
+  "author": "David Tai",
+  "license": "ISC",
+  "devDependencies": {
+    "sake-bundle": "0.6.1",
+    "sake-cli": "0.5.22",
+    "sake-core": "1.5.1",
+    "sake-outdated": "0.1.28",
+    "sake-version": "0.1.19",
+    "coffeescript": "^2.1.1",
+    "sake-linked": "^0.1.2"
+  },
+  "dependencies": {
+    "node-nvidia-smi": "^1.0.0",
+    "sake-test": "^0.1.5"
+  }
+}
